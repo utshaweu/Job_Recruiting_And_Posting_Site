@@ -70,8 +70,8 @@ body {
 	transition: all 0.3s ease-out;
 }
 .navbar{
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .navbar-light .navbar-brand{
   color: #10ac84;
@@ -495,7 +495,6 @@ body {
 ======================================================================================================== */
 #job{
 	padding-top: 40px;
-	padding-bottom: 70px;
 }
 .job-item .nav{
 	justify-content: center;
@@ -576,4 +575,236 @@ body {
 	padding: 2px 12px;
 	border-radius: 2px;
 	background: rgba(255,152,0,0.12)
+}
+
+
+/* ====================================================================================================
+																								Work Part Css
+====================================================================================================== */
+#work{
+	padding-top: 70px;
+}
+.work-content{
+	background: #f0f3fa;
+	border-radius: 2px;
+	padding: 30px;
+	transition: all linear .3s;
+}
+.work-content .work-icon{
+	position: relative;
+}
+.work-content .work-icon i{
+	color: #25AD60;
+	font-size: 30px;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	border-radius: 50%;
+	background: #fff;
+	transition: all linear .3s;
+}
+.work-content .work-icon h6{
+	position: absolute;
+	top: 0;
+	left: 37%;
+	background: #25AD60;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 11px;
+	color: #fff;
+	border-radius: 50%;
+	transition: all linear .3s;
+}
+.work-content h5{
+	font-size: 20px;
+	font-weight: 500;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+.work-content p{
+	color: #42525f;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+}
+.work-content:hover{
+	transform: translateY(-5px);
+	background: #f7f7f7;
+}
+.work-content:hover .work-icon i{
+	color: #fff;
+	background: #25AD60;
+}
+.work-content:hover .work-icon h6{
+	color: #25AD60;
+	background: #fff;
+}
+
+/* =========================================================================================================
+																									Testimonial Part Css
+========================================================================================================= */
+#stories{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.stories-content{
+	text-align: center;
+	border-radius: 4px;
+	margin: 50px 10px 0;
+  padding: 0 10% 4%;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+.stories-content .stories-img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: -50px;
+	overflow: hidden;
+	box-shadow: 0 2px 6px rgba(0,0,0,.15);
+}
+.stories-content .stories-img img{
+	width: 100%;
+	height: auto;
+}
+.stories-content p{
+	color: #42525f;
+	margin-top: 15px;
+	line-height: 26px;
+}
+.stories-content h6{
+	font-size: 18px;
+	font-weight: 500;
+}
+.stories-icon{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.stories-icon i{
+	color: #25AD60;
+	font-size: 16px;
+}
+
+/* =======================================================================================================
+																								Contact Part Css
+======================================================================================================== */
+#contact{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background: #252c41;
+}
+.contact-content h6{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.contact-content p{
+	color: #858b9f;
+	font-size: 14px;
+	font-weight: 400;
+}
+.contact-content p span{
+	display: block;
+}
+.contact-content p a{
+	color: #858b9f;
+}
+.post-content h5{
+	color: #858b9f;
+	font-size: 14px;
+}
+.post-content h5 a{
+	color: #858b9f;
+	transition: all linear .3s;
+}
+.post-content h5 a:hover{
+	color: #fff;
+}
+.contact-content ul li i{
+	color: #858b9f;
+	font-size: 14px;
+	margin-right: 5px;
+	transition: all linear .3s;
+}
+.contact-content ul li:hover i{
+	color: #fff;
+}
+.contact-content ul li a{
+	color: #858b9f;
+	font-size: 14px;
+	transition: all linear .3s;
+}
+.contact-content ul li{
+	margin-bottom: 8px;
+}
+.contact-content ul li:hover a{
+	color: #fff;
+}
+.contact-form .form-control{
+	background: #1f2537;
+	border-color: #1f2537;
+	border-radius: 0;
+	height: 50px;
+	border-color: #25AD60;
+}
+.contact-form .form-control:focus{
+	box-shadow: none;
+	border-color: #25AD60;
+}
+.contact-form .btn{
+	border: 0;
+	border-radius: 0;
+	background: #25AD60;
+	padding: 13px 15px;
+}
+.contact-counter .contact-item{
+	text-align: center;
+	border: 1px solid #2e364e;
+	border-radius: 2px;
+	padding: 10px 0;
+	transition: all linear .3s;
+}
+.contact-counter .contact-item:hover{
+	border-color: #25AD60;
+}
+.contact-counter .contact-item h4{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+/* ==================================================================================================
+																						Footer Part Css
+===================================================================================================== */
+#footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #1b2132;
+}
+.footer-content h6{
+	color: #858b9f;
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.footer-content h6 a{
+	color: #99abb9;
+	transition: all linear .3s;
+}
+.footer-content h6 a:hover{
+	color: #25AD60;
+}
+.footer-icon{
+	text-align: right;
+}
+.footer-icon i{
+	color: #858b9f;
+	margin-left: 15px;
+	transition: all linear .3s;
+}
+.footer-icon i:hover{
+	color: #25AD60;
 }

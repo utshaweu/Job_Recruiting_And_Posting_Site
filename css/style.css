@@ -808,3 +808,169 @@ body {
 .footer-icon i:hover{
 	color: #25AD60;
 }
+
+/* ==================================================================================================
+																						About Banner Part Css
+==================================================================================================== */
+#about-banner{
+	background: url(../images/about.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 180px 0 80px;
+	position: relative;
+}
+#about-banner::after{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+}
+.cmn-content{
+	position: relative;
+	z-index: 99;
+}
+.cmn-content h2{
+	color: #fff;
+	font-size: 35px;
+	font-weight: 800;
+	text-transform: capitalize;
+}
+#mission{
+	padding-top: 70px;
+}
+.mission-content h3{
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.mission-content span{
+	color: #25AD60;
+}
+.mission-content p{
+	color: #42525f;
+	line-height: 26px;
+}
+.mission-img{
+	position: relative;
+	border-radius: 2px;
+}
+.mission-img img{
+	border-radius: 2px;
+}
+.mission-img::after{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 2px;
+	background: rgba(0,0,0,0.4);
+}
+
+#founder{
+	padding-top: 70px;
+}
+.founder-content{
+	padding: 30px;
+	border: 1px solid rgba(66, 82, 95,0.12);
+	border-radius: 2px;
+	transition: all linear .3s;
+}
+.founder-content:hover{
+	border-color: rgba(37, 173, 96,0.4);
+	transform: translateY(-5px);
+}
+.founder-content p{
+	line-height: 26px;
+	color: #42525f;
+	margin-top: 10px;
+	text-align: justify;
+}
+.founder-icon{
+	text-align: center;
+}
+.founder-icon i{
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+	color: #ffffff;
+	background: #25AD60;
+	border-radius: 50%;
+	font-size: 24px;
+	border: 1px solid #25AD60;
+}
+.founder-item span{
+	color: #4f616f;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.founder-item p{
+	color: #99abb9;
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 5px;
+	transition: all linear .3s;
+}
+.founder-content:hover .founder-item p{
+	color: rgba(37, 173, 96,0.8);
+}
+#ceo{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.ceo-img{
+	position: relative;
+	border-radius: 2px;
+}
+.ceo-img img{
+	border-radius: 2px;
+}
+.ceo-img::after{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 2px;
+	background: rgba(0,0,0,0.4);
+}
+.ceo-content{
+	padding-left: 30px;
+}
+.ceo-content h6{
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.ceo-content span{
+	color: #25AD60;
+	font-weight: 500;
+}
+.ceo-content p{
+	margin-top: 25px;
+	margin-bottom: 30px;
+	color: #42525f;
+	line-height: 26px;
+}
+.ceo-icon a i{
+	color: #fcfaff;
+	margin-right: 15px;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 50%;
+	text-align: center;
+	background: #25AD60;
+	border: 1px solid #25AD60;
+	transition: all linear .3s;
+}
+.ceo-icon a i:hover{
+	color: #25AD60;
+	background: transparent;
+}

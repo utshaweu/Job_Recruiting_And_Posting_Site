@@ -974,3 +974,83 @@ body {
 	color: #25AD60;
 	background: transparent;
 }
+
+/* ======================================================================================================
+																						Post A Job Part Css
+========================================================================================================= */
+#job-post{
+	background: url(../images/jobPost.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 180px 0 80px;
+	position: relative;
+}
+#job-post::after{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+}
+#post-form{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.post-form{
+	background: #f0f3fa;
+	padding: 30px;
+	border-radius: 5px;
+}
+.post-form .form-group label{
+	font-weight: 500;
+	color: #333333;
+}
+.post-form .form-group .form-control{
+	border: 2px solid #e8ecec;
+	border-radius: 5px;
+	color: #777777;
+	height: 45px;
+	margin-bottom: 20px;
+}
+.post-form .form-group span{
+	color: #b1b1b1;
+}
+.post-form .form-group .form-control:focus{
+	box-shadow: none;
+	border-color: #25AD60;
+}
+.mr4{
+	height: 150px!important;
+}
+.job-post-btn .btn{
+	border-radius: 25px;
+	margin: 15px 0;
+	background: #25AD60;
+	border: 2px solid #25AD60;
+	padding: 8px 25px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	text-transform: capitalize;
+	transition: all linear .3s;
+}
+.job-post-btn .btn:hover{
+	background: transparent;
+	color: #25AD60;
+	background: #fff;
+}
+#custom-button{
+	padding: 8px;
+	color: #777777;
+	background-color: #ffffff;
+	border: 2px solid #e8ecec;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#custom-text{
+	margin-left: 10px;
+	font-size: 16px;
+	color: #777777;
+}

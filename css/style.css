@@ -1139,3 +1139,221 @@ body {
 	background: #25AD60;
 	border: 2px solid #e8ecec;
 }
+
+/* ======================================================================================================
+																						Sign Up Part Css
+======================================================================================================= */
+#signUp{
+	background: url(../images/news.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 160px 0 60px;
+	position: relative;
+}
+#signUp::after{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+}
+#sign-form{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background: #f0f3fa;
+}
+.sign-form{
+	background: #fff;
+	padding: 35px;
+	border-radius: 5px;
+}
+.sign-form h6{
+	color: #25AD60;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.sign-form .form-control{
+	border: 2px solid #e8ecec;
+	border-radius: 5px;
+	color: #777777;
+	height: 50px;
+	margin-bottom: 20px;
+}
+.sign-form .form-control:focus{
+	box-shadow: none;
+	border-color: #25AD60;
+}
+.sign-form .form-group label{
+	font-weight: 400;
+	color: #777777;
+}
+.sign-btn{
+	margin: 15px 0;
+}
+.sign-btn .btn{
+	background: #25AD60;
+	border: 2px solid #25AD60;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 12px 0px;
+	width: 100%;
+	transition: all linear .3s;
+}
+.sign-btn .btn:hover{
+	background: transparent;
+	color: #25AD60;
+}
+.sign-form .account{
+	margin-bottom: 20px;
+}
+.sign-form .account a{
+	color: #272f46;
+	font-weight: 500;
+}
+.other{
+	text-align: center;
+}
+.other span{
+	color: #4f616f;
+	font-size: 16px;
+	font-weight: 400;
+	position: relative;
+	background: #f0f3fa;
+	padding: 6px 8px;
+	border-radius: 50%;
+	z-index: 1;
+}
+.other span::after{
+	position: absolute;
+	content: '';
+	top: 18px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 300px;
+	height: 1px;
+	background: #f0f3fa;
+	z-index: -1;
+}
+.other-icon{
+	margin-top: 30px;
+}
+.other-icon .cmn-part{
+	background: #3b5998;
+	margin-bottom: 15px;
+	padding: 15px;
+	border-radius: 5px;
+}
+.other-icon .cmn-part a{
+	display: block;
+	color: #ffffff;
+}
+.other-icon .cmn-part i{
+	margin-right: 20px;
+	margin-left: 10px;
+}
+.other-icon .cmn-part span{
+	padding-left: 20px;
+	border-left: 1px solid rgba(255,255,255,0.1);
+}
+.mr5{
+	background: #db4a39!important;
+}
+.mr6{
+	background: #00acee!important;
+}
+.mr7{
+	background: #0e76a8!important;
+}
+.forget a{
+	color: #777777;
+	transition: all linear .3s;
+}
+.forget a:hover{
+	color: #25AD60;
+}
+.mr8{
+	padding-right: 15px;
+	border-right: 1px solid #25AD60;
+}
+.mr9{
+	padding-left: 15px;
+}
+
+/* ========================================================================================================
+																						Contact Us Part Css
+========================================================================================================= */
+#contact-banner{
+	background: url(../images/contactUs.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 180px 0 80px;
+	position: relative;
+}
+#contact-banner::after{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+}
+#contact-content{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background: #f0f3fa;
+}
+.contact-forms{
+	padding: 25px;
+	background: #fff;
+	border-radius: 5px;
+}
+.contact-forms h6{
+	color: #25AD60;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.contact-forms .form-control{
+	border: 2px solid #e8ecec;
+	border-radius: 5px;
+	color: #777777;
+	height: 50px;
+	margin-bottom: 20px;
+}
+.contact-forms .form-control:focus{
+	box-shadow: none;
+	border-color: #25AD60;
+}
+.contact-forms .forms i{
+	margin-right: 5px;
+	font-size: 14px;
+}
+.contact-forms .forms .btn{
+	background: #25AD60;
+	border: 2px solid #25AD60;
+	border-radius: 5px;
+	transition: all linear .3s;
+}
+.contact-forms .forms .btn:hover{
+	color: #25AD60;
+	background: transparent;
+}
+.contact-map{
+	border: 5px solid #fff;
+	border-radius: 5px;
+}
+.contact-map iframe{
+	border-radius: 5px;
+}

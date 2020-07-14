@@ -2,6 +2,12 @@ $(function(){
 
   'use strict'
 
+  //Preloader js
+  $(window).on('load',function(){
+    $(".preloader").delay(1000).fadeOut(1000);
+  });
+  
+
   var header = $(".start-style");
   $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
@@ -22,7 +28,26 @@ $(function(){
       _d[_d.is(':hover')?'addClass':'removeClass']('show');
       },1);
     }
-  });	
+  });
+
+
+  //Sticky Menu js
+  $(window).scroll(function(){
+    var scrolling = $(this).scrollTop();
+     if(scrolling > 100){
+         back2top.fadeIn(500);
+     }
+     else{
+         back2top.fadeOut(500);
+     }
+   });
+  
+  // Back to top js
+  var back2top = $(".back-to-top");
+  var html_body = $('html,body');
+  back2top.click(function(){
+    html_body.animate({scrollTop:0},1000);
+  });
 
   //Testimonial Slider
   $('.stories-slider').slick({

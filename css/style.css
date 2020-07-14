@@ -143,10 +143,12 @@ body {
 	color: #25AD60 !important;
 }
 
-.navigation-wrap .nav-item.active .nav-link {
+/* .navigation-wrap .nav-item.active .nav-link {
 	color: #25AD60 !important;
-}
-
+} */
+/* .navigation-wrap .nav-item .nav-link.active{
+	color: #25AD60!important;
+}  */
 .navigation-wrap .nav-link {
 	position: relative;
 	padding: 5px 5px !important;
@@ -170,9 +172,12 @@ body {
 	opacity: 1;
 }
 
-.navigation-wrap .nav-item.active:hover:after {
+/* .navigation-wrap .nav-item.active:hover:after {
 	opacity: 0;
-}
+} */
+/* .navigation-wrap .nav-item.active::after {
+	opacity: 1;
+} */
 
 .navigation-wrap .nav-item {
 	position: relative;
@@ -808,7 +813,89 @@ body {
 .footer-icon i:hover{
 	color: #25AD60;
 }
+/* ===============================================================================================
+                                           Back to Top Part Css
+=================================================================================================== */
+.back-to-top{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 9999;
+  display: none;
+}
+.back-to-top i{
+  color: #fff;
+  font-size: 18px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #25AD60;
+  border-radius: 8px;
+}
 
+/* ========================================================================================================
+                                            Preloader Part Css
+========================================================================================================= */
+.preloader{
+  width: 100%;
+  height: 100%;
+  background: #272f46;
+  position: fixed;
+  z-index: 99999999;
+}
+.preloader .loader{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.square-spin > div {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  width: 50px;
+  height: 50px;
+	background: #25AD60;
+  -webkit-animation: square-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite;
+	animation: square-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite; 
+}
+@-webkit-keyframes square-spin {
+  25% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
+						transform: perspective(100px) rotateX(180deg) rotateY(0); 
+	}
+  50% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+						transform: perspective(100px) rotateX(180deg) rotateY(180deg); 
+	}
+  75% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
+						transform: perspective(100px) rotateX(0) rotateY(180deg);
+	}
+  100% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
+						transform: perspective(100px) rotateX(0) rotateY(0); 
+	} 
+}
+
+@keyframes square-spin {
+  25% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
+						transform: perspective(100px) rotateX(180deg) rotateY(0); 
+	}
+  50% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+						transform: perspective(100px) rotateX(180deg) rotateY(180deg); 
+	}
+  75% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
+						transform: perspective(100px) rotateX(0) rotateY(180deg); 
+	}
+  100% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
+						transform: perspective(100px) rotateX(0) rotateY(0);
+	}
+}
 /* ==================================================================================================
 																						About Banner Part Css
 ==================================================================================================== */
